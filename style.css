@@ -1,0 +1,52 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header{
+    background-color: rgb(240, 15, 15);
+}
+footer{
+    background-color: transparent;
+}
+h1.mb-2{
+    display: block;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: #000;
+    width: 300px;
+}
+p.dorama{
+    display: block;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: #e75e8d;
+    width: 300px;
+}
+.compilation{
+    display: block;
+    background-color: transparent;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+}
+img{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+    border: solid #27292a;
+    border-radius: 23px;
+}
+.first, .second, .third, .fourth, .fifth, .sixth {
+    display: block;
+    width: 240px;
+    height: 340px;
+    background-color:transparent ;
+    float: left;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: solid #27292a;
+    border-radius: 23px;
+}
