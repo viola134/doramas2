@@ -49,9 +49,9 @@ function out_arr()
 
         }
         // $str .= "<td>" . (array_sum($dorama['year']) / count($dorama['year'])) . "</td>";
-        // $str .= "</tr>";
-        // $arr_out[] = $str;
-        // $i++;
+         $str .= "</tr>";
+         $arr_out[] = $str;
+         $i++;
     }
     $arr_out[] = "</table>";
     return $arr_out;
