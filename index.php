@@ -50,8 +50,8 @@ $str_form_s = '
     <option value="genre">genre</option>
     <option value="year">year</option>
     <option value="chanel">chanel</option>
-    <option value="number of episodes">number of episodes</option>
-    <option value="one episode time">one episode time</option>
+    <option value="numberofepisodes">numberofepisodes</option>
+    <option value="oneepisodetime">oneepisodetime</option>
     <option value="producer">producer</option>
   </select>
   <input type="submit" name="submit" value="OK" class="btn btn-secondary my-2" >

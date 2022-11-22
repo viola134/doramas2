@@ -3,9 +3,6 @@ html, body{
     padding: 0;
     width: 100%;
 }
-header{
-    background-color: rgb(240, 15, 15);
-}
 footer{
     background-color: transparent;
 }

@@ -55,7 +55,9 @@ img {vertical-align: middle;}
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
+footer{
+  background-color: transparent;
+}
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -134,7 +136,7 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   
-  <img src="./images/sg.jpg" style="width:100%" class="slide">
+  <img src="./images/w.jpg" style="width:100%" class="slide">
  
 </div>
 

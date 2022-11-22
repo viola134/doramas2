@@ -2,7 +2,7 @@
 </div>
 </div>
 <hr />
-<footer>
+<footer background="transparent">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
