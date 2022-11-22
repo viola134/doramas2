@@ -29,7 +29,7 @@ $doramas = array(
         "chanel" => "OCN",
         "number of episodes" => "10",
         "one episode time" => "60 min",
-        "producer" => "KLee Chang Hee",
+        "producer" => "Lee Chang Hee",
         "main actors" => "PIm Si Wan, Lee Dong Wook",
         "tags" => "murders, psychology, psychopaths"
     ),

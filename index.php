@@ -2,7 +2,7 @@
 
 include "header.php";
 
-include "action.php";
+include "action2.php";
 
 
 if (isset($_POST["go"])) {
@@ -50,8 +50,8 @@ $str_form_s = '
     <option value="genre">genre</option>
     <option value="year">year</option>
     <option value="chanel">chanel</option>
-    <option value="numberofepisodes">numberofepisodes</option>
-    <option value="oneepisodetime">oneepisodetime</option>
+    <option value="numberofepisodes">number of episodes</option>
+    <option value="oneepisodetime">one episode time</option>
     <option value="producer">producer</option>
   </select>
   <input type="submit" name="submit" value="OK" class="btn btn-secondary my-2" >
