@@ -21,6 +21,9 @@ p.dorama{
     color: #e75e8d;
     width: 300px;
 }
+tr:hover{
+    background-color: transparent;
+    }
 .compilation{
     display: block;
     background-color: transparent;

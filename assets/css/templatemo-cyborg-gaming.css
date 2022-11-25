@@ -466,7 +466,9 @@ Header Style
   border-radius: 23px;
   scroll-behavior: smooth
 }
-
+tr:hover{
+  background-color: transparent;
+  }
 .header-area .main-nav .nav li:last-child a {
   background-color: #27292a;
   padding: 8px 10px 8px 20px;

@@ -74,7 +74,10 @@ footer{
   from {opacity: .4} 
   to {opacity: 1}
 }
+tr:hover{
+background-color: transparent;
 
+}
     </style>
 <!-- Latest compiled and minified CSS -->
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> -->
@@ -102,15 +105,7 @@ footer{
                             <h1 class="mb-2" style=" display: block; font-size: 32px; width: 300px; padding:0 0 20px 0; " > The best doramas list</h1>
                         </a>
                         <!-- ***** Logo End ***** -->
-                        <!-- ***** Search End ***** -->
-                        <div class="search-input">
-                            <form id="search" action="#">
-                                <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword"
-                                    onkeypress="handle" />
-                                <i class="fa fa-search"></i>
-                            </form>
-                        </div>
-                        <!-- ***** Search End ***** -->
+                        
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="index.php" class="active">Home</a></li>
