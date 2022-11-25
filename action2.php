@@ -163,8 +163,11 @@ function out_arr_search(array $arr_index = null)
                 }
             }
            
-        }
+        $str .= "</tr>";
+         $arr_out[] = $str;
+         $i++; 
     }
+}
     $arr_out[] = "</table>";
     return $arr_out;
 }
@@ -186,6 +189,7 @@ function out_search($data)
                     }
                 }
             }
+        
         }
     }
     return out_arr_search(array_unique($arr_index));

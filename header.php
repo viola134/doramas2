@@ -3,15 +3,22 @@
 
 <head>
     <title>Best doramas</title>
+    
+    <link id="favicon" rel="icon" href="./panorama-solid.svg" />
     <meta charset="UTF-8">
 <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="./fontawesome/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <script src="./js/script.js"></script>
     <style>
+      #favicon{
+        width: 16px;
+        height: 16px;
+      }
        {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -92,7 +99,7 @@ footer{
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
                     
-                            <h1 class="mb-2"> The best doramas list</h1>
+                            <h1 class="mb-2" style=" display: block; font-size: 32px; width: 300px; padding:0 0 20px 0; " > The best doramas list</h1>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Search End ***** -->
@@ -106,11 +113,10 @@ footer{
                         <!-- ***** Search End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="index.html" class="active">Home</a></li>
-                            <li><a href="browse.html">Browse</a></li>
-                            <li><a href="details.html">Details</a></li>
-                            <li><a href="streams.html">Streams</a></li>
-                            <li><a href="profile.html">Profile </a>
+                            <li><a href="index.php" class="active">Home</a></li>
+                            <li><a href="#details">Details</a></li>
+                            <li><a href="#contacts">Contacts</a></li>
+                            <li><a href="#container2">Sign in</a>
                             </li>
                         </ul>
                         <a class='menu-trigger'>

@@ -11,7 +11,8 @@ h1.mb-2{
     margin-left: 10px;
     margin-right: 20px;
     color: #000;
-    width: 300px;
+    width: 350px;
+    font-size: 30px;
 }
 p.dorama{
     display: block;

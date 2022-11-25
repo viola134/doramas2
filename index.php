@@ -18,7 +18,7 @@ if (isset($_POST["go"])) {
     }
 }
 $str_form = '
-<div class="container">
+<div class="container" id="container2">
   <h3 class= "my-2">Sign in to know more information about the best k-dramas:</h3>
   <form class="form-inline" action="index.php" method="post" onsubmit="return verify(this)">
     <label for="login" class="m-2">Login:</label> <input type="text" name="login" class="form-control my-2" id="login" placeholder="Enter login">
@@ -38,11 +38,10 @@ echo $str_form;
 // } else {
 //     echo "No data...";
 // }
-
 include "second_block.php";
 // include "slideshow.php";
 $str_form_s = '
-<div class="container">
+<div class="container" id="details">
   <h3 class= "my-2">Sort by:</h3>
   <form action="index.php" method="post" name="sort_form">
   <select name="sort" id="sort" size="1">
