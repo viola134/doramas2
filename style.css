@@ -21,9 +21,11 @@ p.dorama{
     color: #e75e8d;
     width: 300px;
 }
-tr:hover{
-    background-color: transparent;
-    }
+
+.table-hover tbody tr:hover{
+    color: white !important;
+    background-color: white !important;
+}
 .compilation{
     display: block;
     background-color: transparent;
