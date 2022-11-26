@@ -39,7 +39,10 @@ img {vertical-align: middle;}
     border-radius: 23px;
     float: none;
 }
-
+.table-hover tbody tr:hover{
+    color: white !important;
+    background-color: transparent !important;
+}
 /* The dots/bullets/indicators */
 .dot {
   height: 15px;
