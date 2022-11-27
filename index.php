@@ -19,8 +19,8 @@ if (isset($_POST["go"])) {
 }
 $str_form = '
 <div class="container" id="container2">
-  <h3 class= "my-2">Sign in to know more information about the best k-dramas:</h3>
-  <form class="form-inline" action="index.php" method="post" onsubmit="return verify(this)">
+  <h3 class= "my-2" id="login">Sign in to know more information about the best k-dramas:</h3>
+  <form class="form-inline" action="index.php#login" method="post" onsubmit="return verify(this)">
     <label for="login" class="m-2">Login:</label> <input type="text" name="login" class="form-control my-2" id="login" placeholder="Enter login">
     <label for="pass" class="m-2">Password:</label> <input type="password" name="pass" id="pass" class="form-control my-2" placeholder="Enter password" >
     <input type="submit" value="OK" name="go" class="btn btn-secondary m-2">
@@ -42,8 +42,8 @@ include "second_block.php";
 // include "slideshow.php";
 $str_form_s = '
 <div class="container" id="details">
-  <h3 class= "my-2">Sort by:</h3>
-  <form action="index.php" method="post" name="sort_form">
+  <h3 class= "my-2" id="sortby">Sort by:</h3>
+  <form action="index.php#sortby" method="post" name="sort_form">
   <select name="sort" id="sort" size="1">
     <option value="name">name</option>
     <option value="genre">genre</option>
@@ -74,9 +74,9 @@ if (count($out) > 0) {
 }
 
 $str_form_search = "
-<div class=\"container\">
+<div class=\"container\" id='search'>
   <h3>Search:</h3>
-	<form  name='searchForm' action='index.php' method='post' onSubmit='return overify_login(this);' >
+	<form  name='searchForm' action='index.php#search' method='post' onSubmit='return overify_login(this);' >
  		<input type='text' name='search' class='form-control' >
  		<input type='submit' name='gosearch' value='Confirm'  class='btn btn-secondary my-2'>
  		<input type='reset' name='clear' value='Reset'  class='btn btn-secondary my-2'>
