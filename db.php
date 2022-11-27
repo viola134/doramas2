@@ -30,7 +30,7 @@ $doramas = array(
         "number of episodes" => "10",
         "one episode time" => "60 min",
         "producer" => "Lee Chang Hee",
-        "main actors" => "PIm Si Wan, Lee Dong Wook",
+        "main actors" => "Lim Si Wan, Lee Dong Wook",
         "tags" => "murders, psychology, psychopaths"
     ),
     array(

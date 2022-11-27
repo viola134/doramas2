@@ -1,12 +1,15 @@
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
 }
-footer{
+
+footer {
     background-color: transparent;
 }
-h1.mb-2{
+
+h1.mb-2 {
     display: block;
     margin-left: 10px;
     margin-right: 20px;
@@ -14,7 +17,8 @@ h1.mb-2{
     width: 350px;
     font-size: 30px;
 }
-p.dorama{
+
+p.dorama {
     display: block;
     margin-left: 10px;
     margin-right: 20px;
@@ -22,18 +26,15 @@ p.dorama{
     width: 300px;
 }
 
-.table-hover tbody tr:hover{
-    color: white !important;
-background-color: transparent !important;
-}
-.compilation{
+.compilation {
     display: block;
     background-color: transparent;
     margin-right: auto;
     margin-left: auto;
     background-color: transparent;
 }
-img{
+
+img {
     width: 200px;
     height: 300px;
     float: left;
@@ -41,11 +42,17 @@ img{
     border: solid #27292a;
     border-radius: 23px;
 }
-.first, .second, .third, .fourth, .fifth, .sixth {
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth {
     display: block;
     width: 240px;
     height: 340px;
-    background-color:transparent ;
+    background-color: transparent;
     float: left;
     margin-right: 40px;
     margin-left: 40px;
