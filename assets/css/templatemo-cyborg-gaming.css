@@ -426,7 +426,7 @@ Header Style
 }
 .table-hover tbody tr:hover {
   color: white !important;
-  background-color: transparent;
+  background-color: transparent !important;
 }
 .header-area .main-nav .nav {
   display: inline-flex;

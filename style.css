@@ -24,7 +24,7 @@ p.dorama{
 
 .table-hover tbody tr:hover{
     color: white !important;
-    background-color: white !important;
+background-color: transparent !important;
 }
 .compilation{
     display: block;
