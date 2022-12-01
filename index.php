@@ -84,7 +84,7 @@ $str_form_search = "
 </div>";
 
 echo $str_form_search;
-
+$nothing ="Nothing found...";
 if (isset($_POST['gosearch'])) {
     $data = test_input($_POST['search']);
     $out = out_search($data);
@@ -94,9 +94,9 @@ if (isset($_POST['gosearch'])) {
         foreach ($out as $row) { //вывод массива построчно
             echo $row;
         }
-    } else // если нет данных
+    } else// если нет данных
     {
-        echo "Nothing found...";
+        echo $nothing;
     }
 }
 
